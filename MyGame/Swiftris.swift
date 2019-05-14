@@ -42,6 +42,7 @@ protocol SwiftrisDelegate {
 
 class Swiftris {
     //定义一个求和闭包
+    
     //闭包类型：(Int,Int)->(Int)
     let add:(Int,Int)->(Int) = {
         (a,b) in
